@@ -114,7 +114,7 @@ function App() {
         </div>
         <div className={styles.downloadContainer}>
           <div className={styles.downloadContainerMain}>
-            <img src="https://dango-media.s3.us-east-2.amazonaws.com/AppAssets/sittingGirl.png" className={styles.downloadImageLeft} alt={"Left Banner Image"} />
+            <img src="https://dango-media.s3.us-east-2.amazonaws.com/AppAssets/sittingGirl.png" className={styles.downloadImageLeft} alt={"Left Banner"} />
             <div className={styles.downloadTexts}>
               <p>Download our app now!</p>
               {
@@ -124,7 +124,7 @@ function App() {
               }
               <p>Only For Android 🙂</p>
             </div>
-            <img src="https://dango-media.s3.us-east-2.amazonaws.com/AppAssets/bannerGirl.png" className={styles.downloadImageRight} alt={"Right Banner Image"} />
+            <img src="https://dango-media.s3.us-east-2.amazonaws.com/AppAssets/bannerGirl.png" className={styles.downloadImageRight} alt={"Right Banner"} />
           </div>
         </div>
         <p className={styles.warningText}>Please allow app installs from unknown reasons for installing this apk. Our app got taken down from playstore due to DMCA concerns which was pretty inevitable 😭</p>
