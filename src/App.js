@@ -82,7 +82,7 @@ function App() {
             <p>Don't want to go through the hassle of searching your favorite anime every time you open the app? Simply add the anime to your watchlist and access them quickly. </p>
           </div>
           <div className={styles.appInfoBoxImage + " animate__animated animate__pulse animate__infinite animate__slower"}>
-            <img src={watchlistScreen} alt={"Search Screen"} />
+            <img src={watchlistScreen} alt={"Watchlist Screen"} />
           </div>
         </div>
         <div className={styles.appInfoBox}>
@@ -91,7 +91,7 @@ function App() {
             <p>Tired of keeping track for new episodes of your favorite ongoing anime? Just add the anime in your notifications list and let us do the all the hard work. We'll notify you as soon as the new episode is added in our database.</p>
           </div>
           <div className={styles.appInfoBoxImage + " animate__animated animate__pulse animate__infinite animate__slower"}>
-            <img src={notificationScreen} alt={"Search Screen"} />
+            <img src={notificationScreen} alt={"Notification Screen"} />
           </div>
         </div>
         <div className={styles.appInfoBox}>
@@ -100,7 +100,7 @@ function App() {
             <p>Checkout the latest trending animes with just a tap. Trending page is courtesy of Anitrendz.</p>
           </div>
           <div className={styles.appInfoBoxImage + " animate__animated animate__pulse animate__infinite animate__slower"}>
-            <img src={trendingScreen} alt={"Search Screen"} />
+            <img src={trendingScreen} alt={"Trending Screen"} />
           </div>
         </div>
         <div className={styles.appInfoBox}>
@@ -109,12 +109,12 @@ function App() {
             <p>What you want to watch isn't there in Dango (sorryyy T_T) ? Worry not, we've got you! Just send in a request to add your anime in Dango and we'll do it in a jiffy.</p>
           </div>
           <div className={styles.appInfoBoxImage + " animate__animated animate__pulse animate__infinite animate__slower"}>
-            <img src={requestScreen} alt={"Search Screen"} />
+            <img src={requestScreen} alt={"Request Screen"} />
           </div>
         </div>
         <div className={styles.downloadContainer}>
           <div className={styles.downloadContainerMain}>
-            <img src="https://dango-media.s3.us-east-2.amazonaws.com/AppAssets/sittingGirl.png" className={styles.downloadImageLeft} />
+            <img src="https://dango-media.s3.us-east-2.amazonaws.com/AppAssets/sittingGirl.png" className={styles.downloadImageLeft} alt={"Left Banner Image"} />
             <div className={styles.downloadTexts}>
               <p>Download our app now!</p>
               {
@@ -124,7 +124,7 @@ function App() {
               }
               <p>Only For Android 🙂</p>
             </div>
-            <img src="https://dango-media.s3.us-east-2.amazonaws.com/AppAssets/bannerGirl.png" className={styles.downloadImageRight} />
+            <img src="https://dango-media.s3.us-east-2.amazonaws.com/AppAssets/bannerGirl.png" className={styles.downloadImageRight} alt={"Right Banner Image"} />
           </div>
         </div>
         <p className={styles.warningText}>Please allow app installs from unknown reasons for installing this apk. Our app got taken down from playstore due to DMCA concerns which was pretty inevitable 😭</p>
